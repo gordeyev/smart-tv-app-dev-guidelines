@@ -1,4 +1,7 @@
-smart-tv-examples
-=================
+# Smart TV App Development Guidelines #
 
-Smart TV app development examples, tutorials and documentation.
+---
+
+Smart TV App Development examples, tutorials, best-practices and documentation.
+
+_(nice intro needed…)_
