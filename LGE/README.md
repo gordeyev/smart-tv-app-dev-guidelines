@@ -5,8 +5,8 @@ LG
 Developer site: [http://developer.lge.com/]
 
 
-## Examples ##
+### Examples ###
 
-..Hello-World..
+**Hello-World**
 A simple Hello World LG Smart TV app.
 
