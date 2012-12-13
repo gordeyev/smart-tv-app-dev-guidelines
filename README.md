@@ -1,4 +1,4 @@
-# Smart TV app development guidelines #
+# Smart TV app development guidelines
 
 ---
 
@@ -8,41 +8,36 @@ _(nice intro needed…)_
 
 ---
 
-## Contents ##
+## Contents
+
+
+* [LG](#lg)
+	* [Documentation](#documentation)
+		* [Specifications](#tv-specifications)
+	* [Other](#other)
+* [Samsung](#samsung)
+
 
 ---
 
-## LG ##
+## LG
 
 Developer site: http://developer.lge.com/
 
-[LG Official Forum][1]
+Forum: [LG Official Forum][1]
 
-### Examples ###
-
-* **Hello-World**
-
-	A simple Hello World LG Smart TV app.
-
-* **LG-Player**
-
-	LG Media Player API wrapper.
-	
-	Please check the API link in the Documentation section below.
-	
-	
-### Documentation ###
+### Documentation
 
 I find myself searching the documentation far too often, so here's the most important stuff so far. Feel free to make suggestions.
 
 **Documentation Link:** [http://developer.lgappstv.com/TV_HELP/index.jsp](http://developer.lgappstv.com/TV_HELP/index.jsp)
 
-* ### Specification ###
+* ### TV Specifications
 
 	Link: [Developing > Developing Web App > App Development Guide > Specifications][3]
 
 
-### Other ###
+### Other
 
 LG Smart TV models list: http://www.lg.com/uk/smart-tvs
 
@@ -56,5 +51,9 @@ LG Smart TV for development suggestion: [32LM620T][2]
 [3]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FSpecifications.htm
 
 ---
+
+## Samsung
+
+(..)
 
 > _last update: 12/12/2012_
