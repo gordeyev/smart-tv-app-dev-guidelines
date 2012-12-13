@@ -13,6 +13,7 @@ _(nice intro needed…)_
 
 * [LG](#lg)
 	* [TV Specifications](#tv-specifications)
+	* [LG SDK](#lg-sdk)
 	* [Design Guidelines](#design-guidelines)
 	* [Other](#other)
 * [Samsung](#samsung)
@@ -68,6 +69,22 @@ Audio & Video tags supported and most Video events also supported.
 
 [source][LG6]
 
+### LG SDK
+
+LG Software Development Kit consists in a VirtualBox image that contains the LG Emulator and RCU (Remote Control Unit).
+
+**LG Smart TV SDK V2.2.1**
+
+Release Date: 09-NOV-2012
+
+Supported Platforms: Windows, Linux, Mac
+
+Download: [LG SDK][LG-SDK-DOWNLOAD]
+
+**Emulator**
+
+The best way to test an LG App is to have a local web server and to open the app link using the RCU.
+
 ### Design Guidelines
 
 … to-do
@@ -89,6 +106,8 @@ LG Smart TV for development suggestion: [32LM620T][LGlast]
 [LG5]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FAnnex+A+Complete+List+of+Supported+MIME+Types.htm
 
 [LG6]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FAnnex+F+HTML5+Specifications.htm
+
+[LG-SDK-DOWNLOAD]: http://developer.lge.com/resource/tv/RetrieveSdktools.dev
 
 [LGlast]: http://www.amazon.co.uk/LG-32LM620T-32-inch-Widescreen-Freeview/dp/B007IYW1A8/ref=sr_1_1?ie=UTF8&qid=1355338716&sr=8-1
 
