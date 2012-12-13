@@ -1,4 +1,4 @@
-mart TV App Development Guidelines #
+# Smart TV app development guidelines #
 
 ---
 
