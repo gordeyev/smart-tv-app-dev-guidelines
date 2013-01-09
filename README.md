@@ -73,9 +73,9 @@ Audio & Video tags supported and most Video events also supported.
 
 LG Software Development Kit consists in a VirtualBox image that contains the LG Emulator and RCU (Remote Control Unit).
 
-**LG Smart TV SDK V2.2.1**
+**LG Smart TV SDK V2.4**
 
-Release Date: 09-NOV-2012
+Release Date: 21-DEC-2012
 
 Supported Platforms: Windows, Linux, Mac
 
