@@ -12,9 +12,10 @@ _(nice intro needed…)_
 
 
 * [LG](#lg)
-	* [TV Specifications](#tv-specifications)
+	* [Media Specs](#media-specs)
 	* [LG SDK](#lg-sdk)
 	* [Design Guidelines](#design-guidelines)
+	* 	[Deployment](#deployment)
 	* [Other](#other)
 * [Samsung](#samsung)
 
@@ -31,43 +32,38 @@ Forum: [LG Official Forum][LG1]
 
 I find myself searching the documentation far too often, so here's the most important stuff so far. Feel free to make suggestions.
 
-### TV Specifications
+### Media Specs (Protocols and Codecs)
 
-General Link: [source][LG2]
-
-**Protocols**
+General official documentation [link][LG2].
 
 All three models (NetCast 2.0 (2011), NetCast 3.0 H12 (2012), NetCast 3.0 M12 (2012)) support the following protocols:
 
 * HTML file transportation: HTTP, HTTPS
 * VoD media file transportation: MMSH, HTTP, RTMP, RTMPE
-* Linear or live broadcasting: HLS, Widevine
+Linear or live broadcasting: HLS, Widevine
 
-[source][LG3]
+And the following Codecs/Containers:
 
-**CODEC & Container**
+* mp4, wmv, asf, mov, wvm, avi, ts, mp3, wma
 
-mp4, wmv, asf, mov, wvm, avi, ts, mp3, wma
-
-[source][LG4]
+HTML5 Audio and Video tags supported. Most HTML5 Video events also supported.
 
 **MIME Types**
 
-* general supported media - application/x-netcast-av
-* Device Information - application/x-netcast-info
-* WMV (ASF) - video/x-ms-asf, video/x-ms-wmv
-* WMA - audio/x-ms-wma
-* MP3 - audio/mpeg, audio/mp3
-* MP4 - video/mp4, video/mpeg
-* m3u8 - application/vnd.apple.mpegurl
+In order to play media in LG Smart TVs is necessary to use a media object. Example:
 
-[source][LG5]
+	<object type="application/x-netcast-av" data="" autostart="false" width="500" height="500" id="lgPlayer" style="position:absolute; top:0px; left:0px; z-index: 1;"></object>
+	
+The "data" attribute can be changed using Javascript to play whatever supported media. The "type" attributes that can be used are:
 
-**HTML5 Specifications**
+* application/x-netcast-av - general supported media
+* video/x-ms-asf, video/x-ms-wmv - WMV (ASF)
+* audio/x-ms-wma - WMA
+* audio/mpeg, audio/mp3 - MP3
+* video/mp4, video/mpeg - MP4
+* application/vnd.apple.mpegurl - m3u8
 
-Audio & Video tags supported and most Video events also supported.
-
-[source][LG6]
+Here are some useful official documentation links about these topics: [Protocols][LG3] [Specifications][LG4] [MIME Types][LG5] [HTML5 support][LG6]
 
 ### LG SDK
 
@@ -89,9 +85,19 @@ The best way to test an LG App is to have a local web server and to open the app
 
 … to-do
 
+### Deployment
+
+First I use the "Export App Test" option in the LG IDE. Then I update the package to the "App Test" option in the LG Developer site and download the DRM applied file. You create lg/installed/{appid} folder structure inside a usb stick, unzip the downloaded file into it and insert the usb stick into the LG TV.
+
+When you upload the web app into the LG Developer site, you have to insert an URL in the form. This is really good, because it means that you don't have to go over this process every time you change something in your app.
+
+So, I just create and upload a package that allows the TV to connect to my web server. After that I can continue/start to code the app and instantly test on the real device by reloading the TV app.
+
+It's always good to read the [official documentation about this topic][LG7].
+
 ### Other
 
-LG Smart TV models list: http://www.lg.com/uk/smart-tvs
+LG Smart TV models list: [http://www.lg.com/uk/smart-tvs](http://www.lg.com/uk/smart-tvs)
 
 LG Smart TV for development suggestion: [32LM620T][LGlast]
 
@@ -107,6 +113,8 @@ LG Smart TV for development suggestion: [32LM620T][LGlast]
 
 [LG6]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FAnnex+F+HTML5+Specifications.htm
 
+[LG7]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.testing.book%2Fhtml%2FBookTitle_Testing%2FBookTitle_Testing.htm
+
 [LG-SDK-DOWNLOAD]: http://developer.lge.com/resource/tv/RetrieveSdktools.dev
 
 [LGlast]: http://www.amazon.co.uk/LG-32LM620T-32-inch-Widescreen-Freeview/dp/B007IYW1A8/ref=sr_1_1?ie=UTF8&qid=1355338716&sr=8-1
@@ -115,6 +123,6 @@ LG Smart TV for development suggestion: [32LM620T][LGlast]
 
 ## Samsung
 
-(..)
+(...)
 
-> _last update: 12/12/2012_
+> _last update: 09/13/2013_
