@@ -12,7 +12,7 @@ _(nice intro needed…)_
 
 
 * [LG](#lg)
-	* [Media Specs](#media-specs)
+	* [Media Specs](#media-specs-protocols-and-codecs)
 	* [LG SDK](#lg-sdk)
 	* [Design Guidelines](#design-guidelines)
 	* 	[Deployment](#deployment)
