@@ -15,7 +15,8 @@ _(nice intro needed…)_
 	* [Media Specs](#media-specs-protocols-and-codecs)
 	* [LG SDK](#lg-sdk)
 	* [Design Guidelines](#design-guidelines)
-	* 	[Deployment](#deployment)
+	* [Deployment](#deployment)
+	* [Store submission](#store-submission)
 	* [Other](#other)
 * [Samsung](#samsung)
 
@@ -36,7 +37,7 @@ I find myself searching the documentation far too often, so here's the most impo
 
 General official documentation [link][LG2].
 
-All three models (NetCast 2.0 (2011), NetCast 3.0 H12 (2012), NetCast 3.0 M12 (2012)) support the following protocols:
+All three models (NetCast 2.0 (2011), NetCast 3.0 H12 (2012), NetCast 3.0 M12 (2012) support the following protocols:
 
 * HTML file transportation: HTTP, HTTPS
 * VoD media file transportation: MMSH, HTTP, RTMP, RTMPE
@@ -93,7 +94,41 @@ When you upload the web app into the LG Developer site, you have to insert an UR
 
 So, I just create and upload a package that allows the TV to connect to my web server. After that I can continue/start to code the app and instantly test on the real device by reloading the TV app.
 
-It's always good to read the [official documentation about this topic][LG7].
+It's always good to read the [official documentation about deployment][LG7].
+
+### Store submission
+
+LG Store submission is managed in the [LG Seller Lounge](http://seller.lgappstv.com/).
+
+It is important to read the "Seller Lounge Guide", easily spotted once you log in.
+
+***Required Documents for App Submission***
+
+Two documents are mandatory for submiting an app:
+
+* AppDescription (appdescription.ppt)
+
+* Self-Evaluation Checklist (app_self_evaluation_checklist.xls)
+
+Download: [Required Documents for Application Submission to LG Seller Lounge](http://developer.lge.com/resource/tv/RetrieveDocReferencesList.dev) -> "documents for app qa.zip"
+
+***LG App icon & screenshots***
+
+Exactly one icon is mandatory and needs to be accourdingly to these rules:
+
+* 200 * 200
+* PNG, JPG or GIF
+* max size 100kb
+
+At least two screenshots, as per:
+
+* 1280 * 720 (browser, plex) or 960 * 540 (flash)
+* PNG, JPG or GIF
+* max size 200kb
+* max number of screenshots = 6
+
+Download: [LG Smart TV Guidelines for App Icon and Screenshot](http://developer.lge.com/resource/tv/RetrieveDocReferencesList.dev) -> "LG Smart TV Guidelines for App Icon and Screenshot_V4.1.pdf"
+
 
 ### Other
 
