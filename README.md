@@ -23,6 +23,7 @@ _(nice intro needed…)_
 
 ---
 
+
 ## LG
 
 Developer site: http://developer.lge.com/
@@ -32,6 +33,22 @@ Forum: [LG Official Forum][LG1]
 **Documentation Link:** [http://developer.lgappstv.com/TV_HELP/index.jsp](http://developer.lgappstv.com/TV_HELP/index.jsp)
 
 I find myself searching the documentation far too often, so here's the most important stuff so far. Feel free to make suggestions.
+
+
+
+### LG SDK
+
+LG Software Development Kit consists in a VirtualBox image that contains the LG Emulator and RCU (Remote Control Unit).
+
+**LG Smart TV SDK V3.0**
+
+Release Date: 08-FEB-2013
+
+Supported Platforms: Windows, Linux, Mac
+
+Download: [LG SDK][LG-SDK-DOWNLOAD]
+
+
 
 ### Media Specs (Protocols and Codecs)
 
@@ -64,37 +81,40 @@ The "data" attribute can be changed using Javascript to play whatever supported 
 * video/mp4, video/mpeg - MP4
 * application/vnd.apple.mpegurl - m3u8
 
-Here are some useful official documentation links about these topics: [Protocols][LG3] [Specifications][LG4] [MIME Types][LG5] [HTML5 support][LG6]
+Here are some useful official documentation links about these topics:
 
-### LG SDK
+* [Protocols][LG3]
+* [Specifications][LG4]
+* [MIME Types][LG5]
+* [HTML5 support][LG6]
 
-LG Software Development Kit consists in a VirtualBox image that contains the LG Emulator and RCU (Remote Control Unit).
 
-**LG Smart TV SDK V2.4**
-
-Release Date: 21-DEC-2012
-
-Supported Platforms: Windows, Linux, Mac
-
-Download: [LG SDK][LG-SDK-DOWNLOAD]
-
-**Emulator**
-
-The best way to test an LG App is to have a local web server and to open the app link using the RCU.
 
 ### Design Guidelines
 
-… to-do
+(_TO-DO_)
 
-### Deployment
 
-First I use the "Export App Test" option in the LG IDE. Then I update the package to the "App Test" option in the LG Developer site and download the DRM applied file. You create lg/installed/{appid} folder structure inside a usb stick, unzip the downloaded file into it and insert the usb stick into the LG TV.
+
+### Testing
+
+**Real TV**
+
+First, use the "Export App Test" option in the LG IDE. Then, update the package to the "App Test" option in the LG Developer site and download the DRM applied file. You create lgapps/installed/{appid} folder structure inside a usb stick, unzip the downloaded file into it and insert the usb stick into the LG TV.
 
 When you upload the web app into the LG Developer site, you have to insert an URL in the form. This is really good, because it means that you don't have to go over this process every time you change something in your app.
 
 So, I just create and upload a package that allows the TV to connect to my web server. After that I can continue/start to code the app and instantly test on the real device by reloading the TV app.
 
 It's always good to read the [official documentation about deployment][LG7].
+
+**Emulator**
+
+The best way to test an LG App is to have a local web server and to open the app link using the RCU.
+
+Read the official documentation about [testing on Emulator][LG8].
+
+
 
 ### Store submission
 
@@ -130,6 +150,7 @@ At least two screenshots, as per:
 Download: [LG Smart TV Guidelines for App Icon and Screenshot](http://developer.lge.com/resource/tv/RetrieveDocReferencesList.dev) -> "LG Smart TV Guidelines for App Icon and Screenshot_V4.1.pdf"
 
 
+
 ### Other
 
 LG Smart TV models list: [http://www.lg.com/uk/smart-tvs](http://www.lg.com/uk/smart-tvs)
@@ -148,7 +169,9 @@ LG Smart TV for development suggestion: [32LM620T][LGlast]
 
 [LG6]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FAnnex+F+HTML5+Specifications.htm
 
-[LG7]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.testing.book%2Fhtml%2FBookTitle_Testing%2FBookTitle_Testing.htm
+[LG7]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.testing.book%2Fhtml%2FRealTV%2FDeploying+and+Testing+App+on+Real+TV%2FDeploying+and+Testing+App+on+Real+TV.htm
+
+[LG8]: http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.testing.book%2Fhtml%2FEmulator%2FTesting+App+on+Emulator%2FTesting+App+on+Emulator.htm
 
 [LG-SDK-DOWNLOAD]: http://developer.lge.com/resource/tv/RetrieveSdktools.dev
 
@@ -156,8 +179,10 @@ LG Smart TV for development suggestion: [32LM620T][LGlast]
 
 ---
 
+
+
 ## Samsung
 
 (...)
 
-> _last update: 09/13/2013_
+> _last update: 23/04/2013_
