@@ -107,6 +107,27 @@ Useful official documentation links about these topics:
 
 (_TO-DO_)
 
+#### Change TV Region
+
+Please be very careful as you may break your TV if you do not know what you are doing. PROCEED AT YOUR OWN RISK!
+
+* **F-Series (2013)** and **H-Series (2014)**
+
+Guide with pictures: [http://support-us.samsung.com/cyber/popup/iframe/pop_troubleshooting_fr.jsp?idx=428339](http://support-us.samsung.com/cyber/popup/iframe/pop_troubleshooting_fr.jsp?idx=428339)
+
+1. Set the TV to the TV source, press the source button and use the navigation pad, select TV and then click to select.
+2. Open the Main Menu.
+3. Use the navigational pad to select the System portion of the Main Menu, and then click to enter the sub menu.
+4. Setup will be selected by default, click to begin the setup.
+5. You will begin the on-screen setup that you completed when you first bought the television. Your previously entered information will be retained.
+6. Continue through the on-screen setup until you arrive at the Smart Hub Terms & Conditions, Privacy Policy page in the on-screen setup.
+7. With the Smart Hub Terms & Conditions, Privacy Policy page up on the TV press the following buttons in sequential order.
+![alt text](http://wiki.samygo.tv/images/9/9a/F-series-samsung-change-region-guide.jpg "Samsung change region guide.")
+8. The country list will appear. Select your country from the list and then click to continue.
+9. Complete the on-screen setup. You TV's country code has now been changed.
+
+@source: [http://wiki.samygo.tv/index.php5/How_To_Set_Your_Country_Code_In_Smart_Hub](http://wiki.samygo.tv/index.php5/How_To_Set_Your_Country_Code_In_Smart_Hub)
+
 ### LG
 
 #### Real TV
@@ -132,7 +153,9 @@ So, I just create and upload a package that allows the TV to connect to my web s
 
 **App Icons & Screenshots**
 
-Icon Images for TV* Your icon image must be 512 x 423, SQUARE and at least 72 DPI
+Icon Images for TV
+
+* Your icon image must be 512 x 423, SQUARE and at least 72 DPI
 Your screenshot images must be 960 x 540, 1280 x 720 or 1920 x 1080 pixels and at least 72 DPI
 Please upload an image less than 500 KB.
 
@@ -179,4 +202,4 @@ At least two screenshots, as per:
 
 ---
 
-_last update: 11/02/2015_
+_last update: 09/03/2015_
