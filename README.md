@@ -109,7 +109,37 @@ Useful official documentation links about these topics:
 
 #### Change TV Region
 
-Please be very careful as you may break your TV if you do not know what you are doing. PROCEED AT YOUR OWN RISK!
+```
+Disclaimer:
+
+I take no responsability for any damage to your television
+or any other issues that may arise from following these tutorials.
+
+I do not recommend purchasing a Samsung Smart TV to access
+streaming services from another country.
+
+PROCEED AT YOUR OWN RISK!
+
+You may also need some VPN connection after changing your
+TV store in order for some apps to work properly.
+```
+
+Tutorials:
+
+* **D-Series** and **E-Series**
+
+1. Make sure your television is connected to the internet. If you require help, consult your television’s manual.
+2. Power up your TV and enter the smart hub by pressing the appropriate key on the Samsung remote.
+3. Once the Smart Hub has appeared, press only the following keys in exactly this order:
+	* Fast-forward (>>)
+	* 289
+	* Rewind (<<)
+4. If the key-press sequence was performed correctly, you should have entered a backdoor service menu. A list of countries, representing the various regional app stores will appear so you can now select the one that you wish to use.
+5. After a short moment, you will be asked to update the Smart Hub. Press Yes.
+6. The Smart Hub will automatically remove all existing apps and install different ones from the new store. I recommend rebooting the television and agreeing to any further smart hub updates. It is up to you to choose which additional apps you wish to install.
+
+
+@source: [http://www.eyeondemand.com/2013/02/07/how-to-changing-your-samsung-tvs-country-app-store/](http://www.eyeondemand.com/2013/02/07/how-to-changing-your-samsung-tvs-country-app-store/)
 
 * **F-Series (2013)** and **H-Series (2014)**
 
