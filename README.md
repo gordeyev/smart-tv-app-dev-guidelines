@@ -28,6 +28,10 @@ _(nice intro needed…)_
 
 ### Samsung Devices ###
 
+Samsung Smart TV models list: [http://www.samsung.com/us/video/tvs/all-products](http://www.samsung.com/us/video/tvs/all-products)
+
+Samsung Smart TV for development suggestion: [UE32H5500](http://www.amazon.co.uk/Samsung-UE32H5500-32-inch-Widescreen-Freeview/dp/B00JOKEGOS)
+
 (_TO-DO_)
 
 ### LG Devices ###
