@@ -12,11 +12,11 @@ _(nice intro needed…)_
 
 * [Devices](#devices)
 
-* [Platforms / SDKs](#platformsandskds)
-
 * [Media Specs](#media-specs)
 
 * [Design guidelines](#design-guidelines)
+
+* [Dev Resources](#dev-resources)
 
 * [Deployment and Testing](#deployment-and-testing)
 
@@ -50,21 +50,6 @@ Samsung Smart TV for development suggestion: [UE32H5500](http://www.amazon.co.uk
 LG Smart TV models list: [http://www.lg.com/uk/smart-tvs](http://www.lg.com/uk/smart-tvs)
 
 LG Smart TV for development suggestion: [32LM620T](http://www.amazon.co.uk/LG-32LM620T-32-inch-Widescreen-Freeview/dp/B007IYW1A8/ref=sr_1_1?ie=UTF8&qid=1355338716&sr=8-1)
-
-## Platforms and SDKs
-
-This is the big picture with links for fast access of Smart TV Platforms and respective SDKs.
-
-| Platform | Website | Documentation | Forum | SDK |
-| -------- | :-----: | :-----------: | :---: | :-: |
-| Android TV | [developer.android.com/tv](https://developer.android.com/tv)	| [Building Apps for TV](https://developer.android.com/training/tv/index.html) | - | [Android SDK](https://developer.android.com/sdk) |
-| LG | [developer.lgappstv.com](http://developer.lgappstv.com/) | [TV Help](http://developer.lgappstv.com/TV_HELP/index.jsp) | [LG Developer Forums](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV) | [Resources](http://developer.lge.com/resource/tv/RetrieveSdktools.dev) |
-| NetTV (Sharp, Philips) | [yourappontv.com](http://yourappontv.com) | (Login required) | (Login required) | (Login required) |
-| Opera TV | [operasoftware.com/opera-tv](http://www.operasoftware.com/opera-tv) | [dev.opera.com/tv](https://dev.opera.com/tv/) | [Opera TV Store Forums](http://forums.opera.com/categories/en-opera-tv-store) | [Opera TV Emulator](http://www.operasoftware.com/products/tv-emulator) |
-| Roku | [roku.com/developer](https://www.roku.com/developer) | (Login required) | (Login required) | (Login required) |
-| Samsung | [samsungdforum.com](http://www.samsungdforum.com) | [Development Guide](http://www.samsungdforum.com/Guide/) | [English Forum](http://www.samsungdforum.com/SamsungDForum/ForumDashBoard/c305cb96c72a9e5b) | [SDK Download](http://www.samsungdforum.com/Devtools/SdkDownload) |
-| SmartTV Alliance (LG, Sharp, Philips) | [smarttv-alliance.org](http://smarttv-alliance.org)| [SDK Documentation](https://developers.smarttv-alliance.org/sdk-documentation) | [Forum](https://developers.smarttv-alliance.org/forum) | [SDK Overview](https://developers.smarttv-alliance.org/sdk-overview) |
-| Yahoo Connected TV | [developer.yahoo.com/connectedtv/](https://developer.yahoo.com/connectedtv/) | - | - | - |
 
 ## Media Specs (Protocols and Codecs)
 
@@ -115,6 +100,75 @@ Useful official documentation links about these topics:
 
 (_TO-DO_)
 
+"Designing for TV" - Developer Android - [http://developer.android.com/training/tv/index.html](http://developer.android.com/training/tv/index.html)
+
+## Dev Resources
+
+Useful resources for Smart TV Apps development.
+
+### Platforms and SDKs
+
+This is the big picture with links for fast access of Smart TV Platforms and respective SDKs.
+
+| Platform | Website | Documentation | Forum | SDK |
+| -------- | :-----: | :-----------: | :---: | :-: |
+| Android TV | [developer.android.com/tv](https://developer.android.com/tv)	| [Building Apps for TV](https://developer.android.com/training/tv/index.html) | - | [Android SDK](https://developer.android.com/sdk) |
+| LG | [developer.lgappstv.com](http://developer.lgappstv.com/) | [TV Help](http://developer.lgappstv.com/TV_HELP/index.jsp) | [LG Developer Forums](http://developer.lge.com/community/forums/RetrieveForumList.dev?prodTypeCode=TV) | [Resources](http://developer.lge.com/resource/tv/RetrieveSdktools.dev) |
+| NetTV (Sharp, Philips) | [yourappontv.com](http://yourappontv.com) | (Login required) | (Login required) | (Login required) |
+| Opera TV | [operasoftware.com/opera-tv](http://www.operasoftware.com/opera-tv) | [dev.opera.com/tv](https://dev.opera.com/tv/) | [Opera TV Store Forums](http://forums.opera.com/categories/en-opera-tv-store) | [Opera TV Emulator](http://www.operasoftware.com/products/tv-emulator) |
+| Roku | [roku.com/developer](https://www.roku.com/developer) | (Login required) | (Login required) | (Login required) |
+| Samsung | [samsungdforum.com](http://www.samsungdforum.com) | [Development Guide](http://www.samsungdforum.com/Guide/) | [English Forum](http://www.samsungdforum.com/SamsungDForum/ForumDashBoard/c305cb96c72a9e5b) | [SDK Download](http://www.samsungdforum.com/Devtools/SdkDownload) |
+| SmartTV Alliance (LG, Sharp, Philips) | [smarttv-alliance.org](http://smarttv-alliance.org)| [SDK Documentation](https://developers.smarttv-alliance.org/sdk-documentation) | [Forum](https://developers.smarttv-alliance.org/forum) | [SDK Overview](https://developers.smarttv-alliance.org/sdk-overview) |
+| Yahoo Connected TV | [developer.yahoo.com/connectedtv/](https://developer.yahoo.com/connectedtv/) | - | - | - |
+
+### Frameworks
+
+* _\*shameless\*_ smart-tv.js - Smart TV Development Framework - [https://github.com/ruiposse/smart-tv.js](https://github.com/ruiposse/smart-tv.js)
+
+* TV Application Layer (BBC) - [http://fmtvp.github.io/tal/](http://fmtvp.github.io/tal/) - [https://github.com/fmtvp/tal](https://github.com/fmtvp/tal)
+
+* ZombieBox - Cross-platform SmartTV/STB Javascript framework - [http://zombiebox.net](http://zombiebox.net)
+
+* Metrological Application Framework 3.0 - [https://github.com/Metrological/maf3-sdk](https://github.com/Metrological/maf3-sdk)
+
+* Mautilus Smart TV SDK - [http://smarttv.mautilus.com/SDK/](http://smarttv.mautilus.com/SDK/)
+
+* Enyo Javascript Framework [https://github.com/enyojs](https://github.com/enyojs)
+
+* Joshfire Framework - [https://github.com/joshfire](https://github.com/joshfire)
+
+### Code
+
+* "generator-smarttv - Yeoman generator to scaffold a Samsung SmartTV app" -[https://github.com/eddiemoore/generator-smarttv](https://github.com/eddiemoore/generator-smarttv)
+* Gridy.js - [https://github.com/ialpert/gridy.js/](https://github.com/ialpert/gridy.js/) - [http://ialpert.github.com/gridy.js](http://ialpert.github.com/gridy.js)
+* "Samsung SmartTv Packager (2013)" - [https://github.com/imgntn/samsung-smartTV-packager](https://github.com/imgntn/samsung-smartTV-packager)
+* Debugging server (Samsung Smart TV)- [https://gist.github.com/janmonschke/4992216](https://gist.github.com/janmonschke/4992216)
+* Basic Smart TV App Server - [https://github.com/rposbo/basic-smart-tv-app-server](https://github.com/rposbo/basic-smart-tv-app-server)
+* "Samsung sample Brightcove video player" - [https://github.com/BrightcoveOS/Samsung-Smart-TV-Sample-App](https://github.com/BrightcoveOS/Samsung-Smart-TV-Sample-App)
+* 'Polyfill for localStorage in Smart TV' - [https://github.com/artempoletsky/Smart-LS](https://github.com/BrightcoveOS/Samsung-Smart-TV-Sample-App)
+
+
+### Articles / Blog posts / Stackoverflow
+
+###### Articles
+
+* "Smart TV Hacking" - [http://www.delaat.net/rp/2012-2013/p39/report.pdf](http://www.delaat.net/rp/2012-2013/p39/report.pdf)
+
+###### Blog Posts
+
+* [http://eddie-moore.com/2014/01/samsung-smart-tv-app-generator-for-yeoman](http://eddie-moore.com/2014/01/samsung-smart-tv-app-generator-for-yeoman)
+* [http://robinosborne.co.uk/2013/02/04/year-of-101s-february-samsung-smart-tv](http://robinosborne.co.uk/2013/02/04/year-of-101s-february-samsung-smart-tv)
+* [http://robinosborne.co.uk/2013/02/11/smart-tv-101-part-2-app-development](http://robinosborne.co.uk/2013/02/11/smart-tv-101-part-2-app-development)
+* [http://robinosborne.co.uk/2013/02/14/smart-tv-101-part-3-deploying-to-tv](http://robinosborne.co.uk/2013/02/14/smart-tv-101-part-3-deploying-to-tv)
+* [http://robinosborne.co.uk/2013/02/28/samsung-smart-tv-part-4-creating-packages-without-the-sdk](http://robinosborne.co.uk/2013/02/28/samsung-smart-tv-part-4-creating-packages-without-the-sdk)
+
+###### Stackoverflow
+
+* "SmartTV development for starters" - [http://stackoverflow.com/questions/12940572/smarttv-development-for-starters](http://stackoverflow.com/questions/12940572/smarttv-development-for-starters)
+
+### Slides, Talks and Presentations
+
+(_TO-DO_)
 
 ## Deployment and Testing
 
