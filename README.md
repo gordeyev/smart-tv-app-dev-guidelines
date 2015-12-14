@@ -98,9 +98,14 @@ Useful official documentation links about these topics:
 
 ## Design Guidelines
 
-(_TO-DO_)
-
-"Designing for TV" - Developer Android - [http://developer.android.com/training/tv/index.html](http://developer.android.com/training/tv/index.html)
+* [LG Netcast icon & screenshot guide](http://developer.lge.com/resource/tv/RetrieveDocReferencesContent.dev?resourceId=RS00000751)
+* [LG Netcast ui guide](http://developer.lge.com/resource/tv/RetrieveDocReferencesContent.dev?resourceId=RS00000737)
+* [WebOS UX checklist](http://developer.lge.com/webOSTV/design/ux-checklist/)
+* [Samsung guide](http://www.samsungdforum.com/UxGuide/)
+* [Tizen guide](http://www.samsungdforum.com/TizenUxGuide)
+* [Tizen checklist](http://www.samsungdforum.com/TizenUxGuide/09/09_uxchecklist.html)
+* "Designing for TV" - Developer Android - [http://developer.android.com/training/tv/index.html](http://developer
+.android.com/training/tv/index.html)
 
 ## Dev Resources
 
@@ -145,7 +150,7 @@ This is the big picture with links for fast access of Smart TV Platforms and res
 * Debugging server (Samsung Smart TV)- [https://gist.github.com/janmonschke/4992216](https://gist.github.com/janmonschke/4992216)
 * Basic Smart TV App Server - [https://github.com/rposbo/basic-smart-tv-app-server](https://github.com/rposbo/basic-smart-tv-app-server)
 * "Samsung sample Brightcove video player" - [https://github.com/BrightcoveOS/Samsung-Smart-TV-Sample-App](https://github.com/BrightcoveOS/Samsung-Smart-TV-Sample-App)
-* 'Polyfill for localStorage in Smart TV' - [https://github.com/artempoletsky/Smart-LS](https://github.com/BrightcoveOS/Samsung-Smart-TV-Sample-App)
+* 'Polyfill for localStorage in Smart TV' - [https://github.com/artempoletsky/Smart-LS](https://github.com/artempoletsky/Smart-LS)
 
 
 ### Articles / Blog posts / Stackoverflow
