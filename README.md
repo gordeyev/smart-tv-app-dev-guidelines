@@ -93,7 +93,7 @@ Useful official documentation links about these topics:
 * [Protocols](http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FProtocols.htm)
 * [Specifications](http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FSpecifications.htm)
 * [MIME Types](http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FAnnex+A+Complete+List+of+Supported+MIME+Types.htm)
-* [HTML5 support](http://developer.lgappstv.com/TV_HELP/index.jsp?topic=%2Flge.tvsdk.developing.book%2Fhtml%2FDeveloping+Web+App%2FDeveloping+Web+App%2FAnnex+F+HTML5+Specifications.htm)
+* [HTML5 support](http://developer.lgappstv.com/TV_HELP/topic/lge.tvsdk.developing.book/html/Developing%20Web%20App/Developing%20Web%20App/Supported%20HTML5%20CSS3%20Standard%20for%20the%20NetCast%20Platform%20and%20Emulator.htm?path=1_2_2#_Toc455136510)
 
 
 ## Design Guidelines
